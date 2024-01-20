@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color:antiquewhite;
+    font-family: 'Poppins', sans-serif;;
+
+}
+
+a {
+    font-size: 20px;
+    color:brown;
+}
+
+
+h2{
+    border:2px solid blue;
+    margin-top: 100px;
+    padding-left:20px
+}
+
+.custom{
+    color:coral;
+}
+
+p{
+    color: darkgreen;
+    font-size: 20px;
+}
+
+#change-color{
+    color:black;
+}
+
+img{
+    height:200px;
+}
+.about-heading{
+    margin-top:0 ;
+}
+.para{
+   background-color: aqua;
+   width:50%;
+   padding:30px
+}
+
+input,select,textarea{
+    width:300px;
+    height:40px;
+    margin-bottom: 20px;
+}
+
+.para > h2{
+    color:red;
+
+}
+
+ul li {
+    list-style-type:disc;
+    font-size:20px;
+}
+
+.flex-item{
+    width:23%;
+    height:300px;
+    border-radius: 30px;
+    margin-bottom:40px;
+    background-position: center;
+    background-size:cover ;
+    box-shadow:10px 10px  50px rgb(179, 175, 175) ;
+}
+.flex-item p{
+    background-color: chocolate;
+    color:#fff;
+    text-align: center;
+}
+
+.parent-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+
+.gallery-header{
+    text-align: center;
+    font-size: 70px;
+}
+
+.UnorderedList{
+
+    font-size: 40px;
+}
+
+.OrderedLIst{
+        font-size: 40px;
+}
+
+
+.first{
+    background-image: url("https://cdn.motor1.com/images/mgl/W8nzn1/s4/ferrari-laferrari.webp");
+}
+
+.second{
+    background-image: url(https://cdn.motor1.com/images/mgl/eo6AbN/s4/hennessey-venom-f5-roadster.webp);
+}
+.third{
+    background-image: url("https://cdn.motor1.com/images/mgl/2NZ1Zp/s4/mercedes-amg-one.webp");
+}
+
+.fourth{
+    background-image: url(https://cdn.motor1.com/images/mgl/pbbRro/s4/automobili-pininfarina-battista-series-production-start.webp);
+}
+.fifth{
+    background-image: url(https://cdn.motor1.com/images/mgl/lEmymN/s4/bugatti-veyron.webp);
+}
+.sixth{
+    background-image: url(https://cdn.motor1.com/images/mgl/xqo0op/s4/aston-martin-one-77.webp);
+}
+.seventh{
+    background-image: url(https://cdn.motor1.com/images/mgl/jl232k/s4/aspark-owl.webp);
+}
+
+.eighth{
+    background-image: url(https://cdn.motor1.com/images/mgl/vxJOJb/s4/koenigsegg-gemera.webp);
+}
